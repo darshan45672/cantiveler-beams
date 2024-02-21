@@ -1153,7 +1153,7 @@ function printcomment(commenttext,commentloc)
   if(commentloc==0)
   {
   document.getElementById('commentboxright').style.visibility='hidden';
-  document.getElementById('commentboxleft').style.width='0px';
+  document.getElementById('commentboxleft').style.width='350px';
   document.getElementById('commentboxleft').innerHTML = commenttext;
   }
   else if(commentloc==1)
