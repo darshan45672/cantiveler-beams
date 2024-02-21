@@ -282,11 +282,15 @@ h1 {
   height: 420px;
   flex-direction: column;
 }
-#canvas {
-  border-left: 1px solid rgba(177, 176, 176, 0.855);
+canvas#simscreen {
   width: 100%;
-  height: 100%;
-}
+      height: 100%;
+ left: 0;
+top: 0;
+
+     }
+
+
 
 .comments_sec {
   display: flex;
